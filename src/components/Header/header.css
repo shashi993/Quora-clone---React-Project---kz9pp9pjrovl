@@ -1,0 +1,60 @@
+.header{
+    padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+.logo{
+    color: red;
+    margin: 0 25px;
+    padding: 0 25px;
+    font-size: 2.5rem;
+    font-weight: 700 bold;
+}
+.question_search {
+    border: none;
+    display: flex;
+    background-color: whitesmoke;
+    height: 45px;
+    width: 400px;
+    border-radius: 3px;
+    align-items: center;
+}
+.question_search input {
+    /* text-decoration: none; */
+    background-color: whitesmoke;
+   width: 70vh;
+   outline: none;
+  padding: 10px 17px;
+    border: none;
+    border-radius: 3px;
+}
+.question_search > .MuiSvgIcon-root{
+    padding: 2px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(193, 203, 212);
+    background-color: white;
+    border-radius: 80%;
+}
+.handle_btn{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  align-items: center;
+}
+.handle_btn button {
+    margin-right: 25px;
+    font-weight: 1000;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 5px 30px;
+}
