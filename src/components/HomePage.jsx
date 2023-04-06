@@ -3,7 +3,7 @@ import  './Header/header.css'
 import QuesAnsPage from './Q&Alist/QuesAnsPage'
 // import './header/header.css'
 import { useNavigate } from 'react-router-dom';
-import { Q_A_ } from './data';
+import { Q_A_ } from '../data';
 import SearchIcon from '@mui/icons-material/Search';
 function HomePage() {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ function HomePage() {
   }
   function handleLogOut(){
       localStorage.removeItem("user");
-      navigate("/")
+    //   navigate("/")
   }
   const filterd = Q_A_.filter(
       (ques)=> ques.question.toLowerCase().includes(search.toLowerCase()) || 
@@ -50,4 +50,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default HomePage
