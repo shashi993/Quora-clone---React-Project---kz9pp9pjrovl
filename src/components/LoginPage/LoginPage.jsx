@@ -39,7 +39,7 @@ function LoginPage() {
 
             <h2 className="fw-bold mb-2 text-uppercase">Login</h2>
             <p className="text-white-50 mb-3">Please enter your login and password!</p>
-            <p className="text-white-50 mb-5">You can use username aditya <br/>  and password 732385 for demo! </p>
+            <p className="text-white-50 mb-5">You can use username shashi <br/>  and password 852183 for demo! </p>
 
             <MDBInput style={{color:"red"}} value={username} onChange={(e)=>setUsername(e.target.value)} wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' label='Username' id='formControlLg' type='text' size="lg"/>
             <MDBInput style={{color:"red"}} value={password} onChange={(e)=>setPassword(e.target.value)}  wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' label='Password' id='formControlLg' type='password' size="lg"/>
