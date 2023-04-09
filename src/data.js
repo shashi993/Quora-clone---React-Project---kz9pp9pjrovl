@@ -84,7 +84,7 @@ export const User = [
       answeredBy: "gaurav anand",
       questionedBy: "ranveer kapoor",
       question: "What is computer software?",
-      answer: "Information architecture (IA) refers to the process of planning, organizing, structuring, and labeling content in a comprehensive, logical, and sustainable manner. It serves as a means of structuring and classifying content in a way that is clear and understandable, so users can find what they are looking for with little effort. IA may also be used to redesign an existing product, rather than being limited to new products. Essentially, it determines how users will access your website information as well as how well their user experience will be.",
+      answer: "Information architecture (IA) refers to the process of planning, organizing, structuring, and labeling content in a comprehensive, logical, and sustainable manner.",
     },
     {
       id: "3",
