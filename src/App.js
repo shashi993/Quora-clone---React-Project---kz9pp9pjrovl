@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import QuesAnsPage from "./components/Q&Alist/QuesAnsPage";
+import QuesAnsPage from "./components/Q&Alist/QuesAnsPage";
 // import Header from "./Components/Header/Header";
 // import LoginPage from "./components/LoginPage/LoginPage";
 import HomePage from './components/HomePage'
