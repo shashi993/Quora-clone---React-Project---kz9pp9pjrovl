@@ -19,7 +19,7 @@ function HomePage() {
   }
   function handleLogOut(){
       localStorage.removeItem("user");
-    //   navigate("/")
+      navigate("/")
   }
   const filterd = Q_A_.filter(
       (ques)=> ques.question.toLowerCase().includes(search.toLowerCase()) || 
@@ -42,7 +42,7 @@ function HomePage() {
             <div className='handle_btn'>
                 <button onClick={handleAddques}>Add question</button>
                 <button onClick={handleAddans}>Answer Question</button>
-                <button onClick={handleLogOut}>Login</button>
+                <button onClick={handleLogOut}>Logout</button>
             </div>
         </div>
     <QuesAnsPage filterd={filterd} />
