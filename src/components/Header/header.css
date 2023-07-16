@@ -16,12 +16,12 @@
     font-weight: 700 bold;
 }
 .question_search {
-    border: none;
+    border: 1px solid blue;
     display: flex;
     background-color: whitesmoke;
-    height: 45px;
+    height: 55px;
     width: 400px;
-    border-radius: 3px;
+    border-radius: 5px;
     align-items: center;
 }
 .question_search input {
@@ -31,7 +31,7 @@
    outline: none;
   padding: 10px 17px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .question_search > .MuiSvgIcon-root{
     padding: 2px;
@@ -57,4 +57,14 @@
     border: none;
     height: 40px;
     padding: 5px 30px;
+}
+
+.handle_btn button:hover span {
+    color: red;
+    padding-right: 25px;
+}
+
+.handle_btn:hover span {
+    color: white;
+    scroll-padding-right: 25px;
 }

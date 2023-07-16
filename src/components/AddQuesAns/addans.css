@@ -43,6 +43,12 @@
   .add_answer textarea {
     height: 150px;
   }
+
+  .add_answer_btn span {
+    cursor: pointer;
+    display: block;
+    position: relative;
+  }
   
   .add_answer .add_answer_btn {
     display: flex;
@@ -50,6 +56,9 @@
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
+  }
+  .add_answer .add_answer_btn button:hover span {
+    padding-right: 25px;
   }
   
   .add_answer button[type="submit"],
